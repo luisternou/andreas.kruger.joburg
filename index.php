@@ -155,7 +155,7 @@
 
       <?php else: ?>
         <div class="container">
-        <form id="contact-form" action="webform.php" method="POST" class="form">
+        <form id="contact-form" action="index.php" method="POST" class="form">
             <div class="form-group">
                 <label for="name" class="form-label">Your Name</label>
                 <input type="text" class="form-control" id="name" name="name" placeholder="John Doe" tabindex="1" required>
