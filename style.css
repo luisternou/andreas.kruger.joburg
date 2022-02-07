@@ -114,7 +114,7 @@ canvas {
     width:500px;
     box-shadow: 0 15px 35px rgba(50,50,93,.1),0 5px 15px rgba(0,0,0,.07);
     padding:2em;
-    background-color:#fff;
+    /* background-color:#000000; */
 }
 .form-group{
     margin-bottom:1.5em;
@@ -130,11 +130,13 @@ canvas {
 }
 .form-control{
     box-shadow:none;
+    background-color: #101013;
     border-radius:0;
     border-color:#ccc;
     border-style:none none solid none;
     width:100%;
     font-size:1.25em;
+    font-family: elevon, sans-serif;
     transition:all .6s;
 }
 .form-control::placeholder{
@@ -157,17 +159,20 @@ canvas {
 }
 
 .btn{
-    background: 0 0 #fff;
+    background: 0 0 #101013;
     border:1px solid #aaa;
     border-radius:3px;
     color:var(--font-color);
     font-size:1em;
     padding:10 50px;
+    color: #aaa;
+    font-family: elevon, sans-serif;
     text-transform:uppercase;
 }
 .btn:hover{
     border-color:var(--font-hover-color);
     color:var(--font-hover-color);
+    color: #ffffff;
 }
 textarea{
     resize:none;
