@@ -27,7 +27,7 @@
       $body .="Email: $email\r\n";
       $body .="Message: $message\r\n";
     
-      //mail($to, $subject, $body);
+      mail($to, $subject, $body);
     
 
     $message_sent = true;
