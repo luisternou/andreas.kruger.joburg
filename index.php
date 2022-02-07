@@ -34,8 +34,10 @@
       $body .="Name: $name\r\n";
       $body .="Email: $email\r\n";
       $body .="Message: $message\r\n";
+
+      $headers = "From: hi@andreas.kruger.joburg\r\n";
     
-      mail($to, $subject, $body);
+      mail($to, $subject, $body, $headers);
     
 
     $message_sent = true;
