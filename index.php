@@ -129,7 +129,7 @@
       </section>
 
       <blockquote>
-        <p>Thanks for watching!</p>
+        <p>Ciao!</p>
       </blockquote>
 
 

@@ -1,5 +1,14 @@
 import * as THREE from 'https://cdn.skypack.dev/pin/three@v0.137.5-HJEdoVYPhjkiJWkt6XIa/mode=imports,min/optimized/three.js';
 
+
+// Get the current year for the copyright message
+
+let date = new Date();
+let year = date.getFullYear();
+
+let copyright = document.getElementById('copyright');
+copyright.innerHTML = `Copyright © ${year} Andreas Krüger. All rights reserved.`;
+
 const scene = new THREE.Scene();
 
 const camera = new THREE.PerspectiveCamera(75, window.innerWidth / window.innerHeight, 0.1, 1000);
